@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  font-family: "Lexend Deca", sans-serif;
+  color: aliceblue;
+}
+section {
+    border:white solid ;
+    background-color: rgb(25, 25, 48);
+    border-radius: 15px;
+}
+header {
+    background-color: rgb(27, 31, 31);
+    border: white solid;
+}
+footer {
+    background-color: rgb(8, 8, 53);
+    border: white solid;
+}
+.colors_h1 {
+    color: orangered;
+}
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 5px;
+    list-style: none;  
+}
+.botones_menu {
+    background-color: rgb(25, 25, 48);
+    border-style: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
