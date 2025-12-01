@@ -5,13 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
     <link rel="stylesheet" href="../style.css" />
+    <style>
+        input {
+            display: flex;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+        span {
+            color: red;
+        }
+    </style>
   </head>
   <body>
     <header>
       <h1 class="menu">Llefià Music fest</h1>
-      <h2 class="menu">
-        Festival urbano de música indie y electrónica·Barcelona
-      </h2>
+      <h2 class="menu">Solicita información o entradas</h2>
       <nav>
         <ul class="menu">
           <li class="botones_menu"><a href="../index.html">Inicio</a></li>
@@ -21,7 +29,38 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h1 class="colors_h1">Entradas y contacto</h1>
+      <p>
+        Completa este formulario de ejemplo. En el examen se te pedirá algo muy
+        similar en otra página.
+      </p>
+      <label for="first-name">Nombre Completo<span>*</span></label>
+      <input
+        type="text"
+        id="first-name"
+        placeholder="Escribe tu nombre"
+        required
+      />
+      <label for="email">Correo electrónico:<span>*</span></label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="tucorreo@ejemplo.com"
+        required
+      />
+      <label for="">Tipo de entrada</label>
+      <select name="" id="">
+        <option value="">Pase 1 día</option>
+        <option value="">Pase 3 días</option>
+        <option value="">Entrada VIP</option>
+      </select>
+      <p>¿Quieres recibir el boletín del festival?</p>
+      <label for="">
+        <input type="checkbox" name="">
+      </label>
+    </main>
     <footer>© 2025 - Llefià Music Fest</footer>
   </body>
 </html>

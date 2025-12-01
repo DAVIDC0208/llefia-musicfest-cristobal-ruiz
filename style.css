@@ -4,17 +4,19 @@ body {
   color: aliceblue;
 }
 section {
-    border:white solid ;
+    border-style: none;
     background-color: rgb(25, 25, 48);
     border-radius: 15px;
+    width: 900px;
+    
 }
 header {
     background-color: rgb(27, 31, 31);
-    border: white solid;
+    border: rgb(209, 103, 17) solid;
 }
 footer {
     background-color: rgb(8, 8, 53);
-    border: white solid;
+    border-style: none;
 }
 .colors_h1 {
     color: orangered;
@@ -36,3 +38,11 @@ footer {
     cursor: pointer;
     text-decoration: none;
 }
+img {
+    width: 900px;
+    height: 500px;
+}
+.align_items {
+    align-items: center;
+}
+
