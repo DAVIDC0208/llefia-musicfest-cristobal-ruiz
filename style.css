@@ -34,4 +34,5 @@ footer {
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 }
